@@ -1,0 +1,74 @@
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .neumorphic {
+    min-width: 300px;
+
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #a3b1c6, -10px -10px 20px #ffffff;
+  }
+  
+  .neumorphic-card {
+    background: #e0e5ec;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .neumorphic-input {
+    margin-bottom: 30px;
+    margin-right: 20px;
+    padding: 10px;
+    height: 80px;
+    width: 95%;
+    font-size: 4rem;
+    border: none;
+    border-radius: 10px;
+  }
+  .button-row {
+    
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  button {
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    border-radius: 50%;
+    font-size: 2rem;
+    font-weight: bold;
+    border: none;
+    background: #e0e5ec;
+    box-shadow: 8px 8px 15px #a3b1c6, -8px -8px 15px #ffffff;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  button:active {
+    box-shadow: inset 8px 8px 15px #a3b1c6, inset -8px -8px 15px #ffffff;
+  }
+
+#zerobtn{ 
+    width: 145px;
+    border-radius: 50px;
+}
+a{
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+
+a:hover{
+    transform: scale(1.1);
+}

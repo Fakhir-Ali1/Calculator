@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <a href="https://github.com/Fakhir-Ali1" target="_blank">
+            <img src="./png/5847f98fcef1014c0b5e48c0.png" alt="GitHub Repo" width="40">
+          </a>
+          
+        <div class="neumorphic neumorphic-card">
+          <div>
+            <input readonly type="text" class="neumorphic neumorphic-input" name="" id="inp">
+        </div>
+        <div class="button-row">
+        <div>
+            <button onclick="dlt()">C</button>
+            <button onclick="aclear()">AC</button>
+            <button onclick="pres('%')">%</button>
+            <button onclick="pres('/')">/</button>
+        </div>
+        <div>
+            <button onclick="pres(7)">7</button>
+            <button onclick="pres(8)">8</button>
+            <button onclick="pres(9)">9</button>
+            <button onclick="pres('*')">X</button>
+        </div>
+        <div>
+            <button onclick="pres(4)">4</button>
+            <button onclick="pres(5)">5</button>
+            <button onclick="pres(6)">6</button>
+            <button onclick="pres('-')">-</button>
+        </div>
+        <div>
+            <button onclick="pres(1)">1</button>
+            <button onclick="pres(2)">2</button>
+            <button onclick="pres(3)">3</button>
+            <button onclick="pres('+')">+</button>
+        </div>
+        <div>
+            <button id="zerobtn" onclick="pres(0)">0</button>
+            <button onclick="pres('.')">.</button>
+            <button onclick="equal()">=</button>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
